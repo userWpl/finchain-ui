@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+select,
+button,
+input,
+textarea{
+	outline: none
+}
+.my-box{
+	width:100%;
+	height: 100%;
+	background: white;
+}
+
+.my-content{
+	width: 100%;
+}
+.my-banner{
+	width: 100%;
+	height: 580px;
+}
+.my-banner .swiper-container {
+    width: 100%;
+    height:100%;
+}
+.swiper-wrapper img{
+	width: 100%;
+	height: 100%;
+}
+.swiper-pagination-bullet {
+    width: 40px;
+    height: 2px;
+    border-radius: 0;
+    display: inline-block;
+    background: rgba(255,255,255,0.5);
+}
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #FFFFFF;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 36px;
+}
+.my-list{
+	width:88%;
+	background: white;
+	margin:85px 6% 0;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.my-l{
+	width: 420px;
+	height: 210px;
+	box-sizing: border-box;
+	border: 1px solid #DFE2E6;
+	border-radius: 8px;
+	margin-bottom: 100px;
+	display: flex;
+}
+.my-l-img{
+	width: 200px;
+	height:100%;
+	display: flex;
+	margin-left:30px;
+	align-items: center;
+	
+}
+.my-l-img img{
+	width: 110px;
+	height: 110px;
+	border-radius:50%;
+}
+.my-l-txt{
+	width:170px;
+	padding-top:30px;
+}
+.my-l-txt div{
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+}
+.my-l-txt p{
+	margin:9px 0; 
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	color: #92989E;
+	letter-spacing: 0;
+}
+.my-jg{
+	width: 100%;
+	height: 30px;
+	background:#F2F4F6 ;
+}
+.my-footer{
+	width: 100%;
+}
+.my-ft{
+	width:510px;
+	height: 46px;
+	line-height: 46px;
+	margin:90px auto;
+	font-family: MicrosoftYaHei;
+	font-size: 36px;
+	color: #4A5660;
+	letter-spacing: 0;
+	text-align: center;
+}
+.my-ft>p{
+	font-size: 36px;
+}
+.my-fb{
+	width:80%;
+	margin: 100px 10% 200px;
+	display: flex;
+	justify-content: space-between;
+}
+.my-fb div{
+	width: 210px;
+	height: 248px;
+	margin: 0px 20px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+.my-fb div img{
+	width: 110px;
+	height: 110px;
+	display: inline-block;
+	border-radius:50%;
+}
+.my-fb div .t1{
+	font-family: MicrosoftYaHei;
+	font-size: 20px;
+	color: #4A5660;
+	letter-spacing: 0;
+	margin: 40px 0 20px 0;
+}
+.my-fb div .t2{
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	color: #4A5660;
+	letter-spacing: 0;
+	line-height: 24px;
+}
